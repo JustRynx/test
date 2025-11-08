@@ -1,0 +1,16 @@
+{
+  "name": "ai-task-manager",
+  "version": "0.1.0",
+  "description": "Small Node.js API with intentional 'vibe-coded' bugs for testing Kreyo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "sqlite3": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "node-fetch": "2.6.1"
+  }
+}
