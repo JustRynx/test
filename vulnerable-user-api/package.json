@@ -1,0 +1,16 @@
+{
+  "name": "vulnerable-user-api",
+  "version": "1.0.0",
+  "description": "A small Express API with intentional vulnerabilities for testing AI scanners like Kreyo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "sqlite3": "^5.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0"
+  }
+}
